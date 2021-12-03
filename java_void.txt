@@ -1,0 +1,13 @@
+자바
+void << return되는 타입이 없는것 (아무것도 리턴하지 않았음) (return이 없을 때)
+
+ex 1) public String getname() {     // get은 값을 가져오기 위함이다.
+       retrun name;
+       }
+
+ex 2) public void setname(String name) {     // set은 어떤값을 넣기 위함이다.
+         this.name = name;
+       }
+
+초기화란?
+어떤 일을 시작하기 전에 준비를 하게 되는데 이것을 다른 말로 초기화라고 한다. 
