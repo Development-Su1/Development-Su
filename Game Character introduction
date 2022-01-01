@@ -1,3 +1,5 @@
+# 간단한 게임 캐릭터 소개 
+
 from random import *
 
 # 일반 유닛
