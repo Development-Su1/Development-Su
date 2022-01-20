@@ -13,7 +13,7 @@ writer = csv.writer(f)   # csv로 파일 작성
 title = "N	종목명	현재가	전일비	등락률	액면가	시가총액	상장주식수	외국인비율	거래량	PER	ROE".split("\t")
 # ["N", "종목명", "현재가", ...] >> 리스트 형태로 작성
 # .split("\t")을 해주게 되면 tab로 구분된 것들이 리스트 형태로 들어가게 됨.
-print(type(title))
+print(type(title))  # title의 type를 확인 [list여야 함.] 
 writer.writerow(title)   # writerow는 리스트 형태로 넣어야 함.
 
 for page in range(1, 5):
