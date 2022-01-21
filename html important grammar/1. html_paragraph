@@ -1,21 +1,22 @@
 단락(paragraph)
 HTML에서는 <P>테그를 사용하여 단락을 표현합니다.
+단락의 여백 크기는 CSS를 통해서 설정이 가능합니다.
 
 1) 예제
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>HTML Paragraph</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Paragraph</title>
+  </head>
 
-<body>
+  <body>
+<p>HyperText Markup Language, commonly referred to as HTML, is the standard markup language uesd to create web pages.</p>
+
+<p>HTML elements form the building blocks of all websites.</p>
+
+<p>The language is written in the form of HTML elements consisting of tags enclosed in angle brackets.</p>
   
-  <h1>Hello World!!</h1>
-  <h2>Hello World!!</h2>
-  <h3>Hello World!!</h3>
-  <p>여기서부터 단락입니다.</p>
-  
-</body>
+  </body>
 
 </html>
