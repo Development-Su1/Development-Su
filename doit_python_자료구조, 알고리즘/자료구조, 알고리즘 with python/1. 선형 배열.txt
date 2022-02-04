@@ -12,8 +12,22 @@
 - list.append(iterable) : 맨 뒤에 원소로 그대로 덧붙이기
 - list.extend(iterable) : 맨 뒤에 원소로 추가하기
 - list.pop() : 맨 뒤의 원소 하나를 꺼내기
+ex) 리스트에 마지막 요소 추가
+    L.append('New')
+    ['Bob', 'Cat', 'Spam', 'Programmers', 'New']
+
+ex) 리스트에서 마지막 요소 꺼내기
+    L.pop('New')
+    ['Bob', 'Cat', 'Spam', 'Programmers']    
 
 # 리스트 길이와 실행 시간이 비례하는 메서드 (선형시간)
 - list.insert(index, iterable) : 특정 위치에 원소 추가
 - del(index)/ del(list[index]) : 특정 위치 원소 삭제하기
 - list.index(data) : 특정 값(data)가 존재하는 위치를 돌려준다.
+ex) 원소 삽입 하기
+    L.insert(3, 65)
+    [20, 37, 58, 65, 72, 91]
+
+ex) 원소 삭제 하기
+    del(L[2])
+    [20, 37, 65, 72, 91]
