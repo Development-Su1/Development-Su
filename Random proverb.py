@@ -1,3 +1,6 @@
+# 랜덤 속담 프로그램
+# 보기를 클릭하면 랜덤으로 속담이 나타납니다.
+
 quotes = ["Convictions are more dangerous enemies of truth than lies.", "Rather be dead than cool.", "Accept challenges, so that you may feel the exhilaration of victory.",
 "Nothing great in the world has been accomplished without passion.", "If you don't risk anything you risk even more.", "The biggest adventure you can ever take is to live the life of your dreams."]
 meaning = ["강한 신념이야말로 거짓보다 더 위험한 진리의 적이다.", "열정없이 사느니 차라리 죽는게 낫다.", "도전을 받아들여라. 그러면 승리의 쾌감을 맛볼 지도 모른다.",
