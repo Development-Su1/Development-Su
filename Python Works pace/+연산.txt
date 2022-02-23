@@ -1,5 +1,0 @@
-큰따옴표(")로 둘러싸인 문자열은 + 연산과 동일하다
->>> print("life" "is" "too short") # ①
-lifeistoo short
->>> print("life"+"is"+"too short") # ②
-lifeistoo short
